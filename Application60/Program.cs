@@ -32,7 +32,7 @@ namespace Application60
 
                 else if(guess<1 || guess>10)
                 {
-                    Console.WriteLine("Wprowadź liczbę z zakresu od 1 do 10");
+                    Console.WriteLine("Wprowadź liczbę z zakresu od 1 do 10!");
                     continue;
                 }
                 else if (guess<correctNumber)
